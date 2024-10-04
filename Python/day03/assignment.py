@@ -51,23 +51,23 @@
 
 
 # input number
-# number = int(input("Enter a number to generate its multiplication table: "))
+number = int(input("Enter a number to generate its multiplication table: "))
 
-# Define the range for the multiplication table
-# range_limit = 10
+#Define the range for the multiplication table
+range_limit = 10
 
-#  Print the multiplication table using a for loop
-# for i in range(1, range_limit + 1):
-#     print(f"{number} x {i} = {number * i}")
+#Print the multiplication table using a for loop
+for i in range(1, range_limit + 1):
+     print(f"{number} x {i} = {number * i}")
 
-# #input  the number
-# number = int(input("Enter a number to generate its multiplication table: "))
+#input  the number
+number = int(input("Enter a number to generate its multiplication table: "))
 
-# range_limit = 10
+range_limit = 10
 
-# print(f"\nMultiplication Table for {number}:\n")
-# for i in range(1, range_limit + 1):
-#     print(f"{number} x {i} = {number * i}")
+print(f"\nMultiplication Table for {number}:\n")
+for i in range(1, range_limit + 1):
+     print(f"{number} x {i} = {number * i}")
 
 # #stars in a triangular pattern
 # height = int(input("Enter the height of the triangle: "))
