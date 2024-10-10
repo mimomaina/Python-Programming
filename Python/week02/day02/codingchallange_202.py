@@ -45,14 +45,13 @@
 
 # # Create a tuple to store the student's name, age, and grade
 # student_info = ("John Doe", 20, "A")
-
-# # Print the entire tuple
 # print( student_info)
 
 
 
 operators = ("+", "-", "*", "/")
 
+operator = input("Choose an operator (+, -, *, /): ")
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 
@@ -64,18 +63,17 @@ def calculate(num1, num2, operator):
     elif operator == "*":
         return num1 * num2
     elif operator == "/":
-        if num2 != 0:  # Avoid division by zero
+        if num2 != 0: 
             return num1 / num2
         else:
-            return "Error: Division by zero is not allowed"
+            return "Error
+        : Division by zero is not allowed"
     else:
         return "Invalid operator selected"
 
 
 print( operators)
 
-
-operator = input("Choose an operator (+, -, *, /): ")
 
 result = calculate(num1, num2, operator)
 print(f"\nThe result of {num1} {operator} {num2} is: {result}")

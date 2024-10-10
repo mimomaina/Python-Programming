@@ -42,7 +42,7 @@
 #my_list = ['a','b','c','d','e','f','g']
 # # my_list.pop(2)
 # #or
-# # del my_list[1]
+# # del my_list[1]  (no index),(range)
 # #or
 # #my_list.remove('d')
 # #or
