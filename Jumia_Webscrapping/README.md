@@ -1,61 +1,5 @@
 
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-⌄
-⌄
-⌄
-⌄
-⌄
-⌄
-⌄
-⌄
-⌄
 # Jumia Kenya Product Scraper
 
 A Python-based web scraper that extracts product data from the "Flash Sales" section of Jumia Kenya (https://www.jumia.co.ke), performs basic market analysis, and provides actionable insights for sellers.
@@ -156,20 +100,20 @@ Found section: 'Flash Sales | Live Now'
 Found 12 products in the deals section
 Successfully saved 12 products to 'products.csv'
 
-============================================================
-POPULARITY ANALYSIS AND SELLER RECOMMENDATION
-============================================================
 
-Top 5 Most Reviewed Products:
+##POPULARITY ANALYSIS AND SELLER RECOMMENDATION
+
+
+##Top 5 Most Reviewed Products:
 1. Original Wireless Earbuds | Reviews: 45 | Rating: 4.2 → Adj: 4.18
 2. Smartphone X Pro | Reviews: 38 | Rating: 4.5 → Adj: 4.47
 3. Smart LED TV | Reviews: 29 | Rating: 4.1 → Adj: 4.08
 
-Recommendation: Sellers should consider products from 'Original'.
+##Recommendation: Sellers should consider products from 'Original'.
 Data Collected
 The scraper extracts the following information for each product in the Flash Sales section:
 
-Product Name
+###Product Name
 Full name of the product
 Text content of
 <h3>
@@ -190,11 +134,11 @@ Rating
 Average customer rating out of 5
 Decimal number extracted from star rating text
 
-Analysis Methodology
+###Analysis Methodology
 Popularity Metric
 The analysis uses number of reviews as a proxy for product popularity and sales volume. This assumption is based on the correlation between customer reviews and purchase frequency in e-commerce platforms.
 
-Adjusted Rating Formula
+###Adjusted Rating Formula
 To prevent products with few reviews from appearing artificially high-rated, the script calculates an adjusted rating using the formula:
 
 
@@ -299,3 +243,4 @@ Attribution: If sharing results, acknowledge the data source (Jumia Kenya).
 Cease if Blocked: Stop scraping if you receive 403 errors or other blocking signals.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
+
